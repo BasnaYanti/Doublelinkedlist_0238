@@ -26,5 +26,8 @@ void addNode()
             cout << "\033[31Duplicate roll numbers not allowed\033" << endl;
             return;
         }
+
+        newNode->next = START;
+        
     }
 }
