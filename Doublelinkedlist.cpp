@@ -44,6 +44,9 @@ void addNode()
                 previouse = current;
                 current = current->next;
             }
+
+            newNode-> next = current;
+            newNode->prev = previouse;
         }
     }
 }
