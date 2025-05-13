@@ -13,5 +13,14 @@ Node *START = NULL;
 
 void addNode()
 {
-    
+    Node *newNode = new Node();
+    cout << "\nEnter the roll number of the strudent: ";
+    cin >> newNode->noMhs;
+    cout << "\nEnter the name of the strudent: ";
+    cin >> newNode->name;
+
+    if (START == NULL || newNode->noMhs <= START->noMhs)
+    {
+        
+    }
 }
